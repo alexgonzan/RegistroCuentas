@@ -1,4 +1,4 @@
-package mx.com.gm.peliculas.datos;
+package mx.com.gm.cuentas.datos;
 
 import static org.junit.Assert.*;
 

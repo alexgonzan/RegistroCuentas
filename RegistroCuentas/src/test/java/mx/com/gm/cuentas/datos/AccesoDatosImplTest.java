@@ -1,4 +1,4 @@
-package mx.com.gm.peliculas.datos;
+package mx.com.gm.cuentas.datos;
 
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -46,7 +46,7 @@ public class AccesoDatosImplTest {
 	}
 	
 	@Test
-	public void giveInvalidateFileWhenExisteThenReturnTrue() throws AccesoDatosEx{
+	public void giveInvalidateFileWhenExisteThenReturnFalse() throws AccesoDatosEx{
 		
 		boolean expectedResponse = false;
 		String rutaArchivo = "C:\\Users\\agonzalez\\Documents\\AGG\\Tareas\\Curso\\cuenticas.txt";
